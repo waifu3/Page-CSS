@@ -441,7 +441,7 @@ body {
 .questions__padding {
     padding: 0;
     transition: padding .3s;
-    border: 1px solid #1900fad7;
+    border: 1px solid #5454D4;
     border-radius: 6px;
 }
 
@@ -466,7 +466,7 @@ body {
 
 .questions__arrow {
     border-radius: 50%;
-    background-color: #000000 width;
+    width: 25px;
     height: 25px;
     display: flex;
     justify-content: center;
