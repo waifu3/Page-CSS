@@ -98,7 +98,7 @@ body {
 .modal__close {
     text-decoration: none;
     color: #fff;
-    background-color: #2091f9;
+    background-color: #F26250;
     padding: 1em 3em;
     border: 1px solid;
     border-radius: 6px;
@@ -108,7 +108,7 @@ body {
 }
 
 .modal__close:hover {
-    color: #2091f9;
+    color: #F26250;
     background-color: #fff;
 }
 
