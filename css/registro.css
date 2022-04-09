@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../imagenes/torre3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formm,
+.formm2 {
+    background: rgba(0, 0, 0, .6);
+    width: 98%;
+    max-width: 718px;
+    margin: auto;
+    padding: 12px 23px;
+    margin-top: 25px;
+    padding-bottom: 9px;
+    border-radius: 2px;
+}
+
+.formm .form-header .form-titulo {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fb8500;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.formm .form-header .form-titulo span {
+    color: #4ea2f0;
+}
+
+.formm .form-label {
+    display: contents;
+    color: #fb8500;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.formm .form-control {
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fb8500;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.formm .btn-submit {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    background: #fb8500;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.formm .btn-submit:hover {
+    background: #fb8500;
+}
