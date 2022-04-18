@@ -1,37 +1,6 @@
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: var(--padding-container);
-}
-
-.hero {
-    width: 100%;
-    height: 100vh;
-    min-height: 600px;
-    max-height: 800px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    color: #fff
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, #00000000 0%, #00000000 100%), url('../imagenes/electrico7.jpg');
-    background-size: cover;
-    z-index: -1;
-}
-
 .nav {
     --padding-container: 0px;
-    height: 100%;
+    height: 142%;
     display: flex;
     align-items: center;
 }
@@ -95,6 +64,46 @@
 }
 
 :root {
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 68px 1fr;
+    color: #fff
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 101%;
+    height: 19%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../imagenes/electrico7.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+:root {
     --colorTextos: #49454567;
 }
 
@@ -107,17 +116,9 @@
 }
 
 body {
-    font-family: 'Roboto';
-    background: #1b2021;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #023047, #023047);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: rgba(0, 0, 0, .6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 719px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url('../imagenes/electrico7.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -127,15 +128,13 @@ h1 {
 
 form {
     background: rgba(0, 0, 0, .6);
-    padding: 35px 0;
+    padding: 26px 0;
     box-shadow: 0 0 6px 0 rgba(27, 19, 19, 0.945);
-    border-radius: 10px;
-    margin-top: -17px;
-    margin-left: 379px;
-    height: 87%;
-    width: 44%;
-    margin: auto;
-    border-radius: -92px;
+    border-radius: 12px;
+    margin-top: 121px;
+    margin-left: 452px;
+    height: 79%;
+    width: 41%;
 }
 
 .form {
@@ -145,12 +144,12 @@ form {
 
 form .grupo {
     position: relative;
-    margin: 45px;
+    margin: 38px;
 }
 
 input {
     background: none;
-    color: #c6c6c6;
+    color: #e8dada;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -161,7 +160,7 @@ input {
 
 input:focus {
     outline: none;
-    color: #5e5d5d;
+    color: #eee3e3;
 }
 
 label {
