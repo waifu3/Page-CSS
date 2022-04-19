@@ -12,7 +12,7 @@
         Fuentes - Tipo de letra - Iconografia 
     ==========================================-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
 
     <!--========================================
@@ -24,8 +24,27 @@
 </head>
 
 <body>
+    <section id="Inicio">
+        <header class="hero">
+            <nav class="nav container">
 
+                <h2 class="nav__title">Electro Speed.</h2>
 
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+
+                    <img src="./imagenes/close.svg" class="nav__close" alt="">
+                </ul>
+
+                <div class="nav__menu">
+                    <img src="./imagenes/menu.svg" class="nav__img">
+                </div>
+            </nav>
+        </header>
+
+    </section>
     <!--========================================
        contenido
     ==========================================-->
@@ -113,7 +132,7 @@
                 <!--========================================
                     Formulario logue
                 ==========================================-->
-                <form action="" method="POST" id="formLogin" class="formulario active">
+                <form action="index.html" method="GET" id="formLogin" class="formulario active">
 
                     <div class="error-text">
                         <p>aqui los errores del formualrio</p>
@@ -122,7 +141,7 @@
                     <input type="text" placeholder="Correo electrónico" class="input-text" name="correo" autocomplete="off">
                     <div class="grupo-input">
 
-                        <input type="password" placeholder="Contraseña" name="password" class="input-text clave">
+                        <input type="password" placeholder="********" name="password" class="input-text clave">
                         <button type="button" class="icono fas fa-eye mostrarClave"></button>
 
                     </div>
@@ -135,7 +154,7 @@
                 <!--========================================
                     Formulario de Registro
                 ==========================================-->
-                <form action="" method="POST" id="formRegistro" class="formulario ">
+                <form action="index.html" method="GET" id="formRegistro" class="formulario">
 
                     <div class="error-text ">
 
@@ -146,7 +165,7 @@
 
                     <div class="grupo-input">
 
-                        <input type="password" placeholder="Contraseña" name="password" class="input-text clave">
+                        <input type="password" placeholder="********" name="password" class="input-text clave">
                         <button type="button" class="icono fas fa-eye mostrarClave"></button>
 
                     </div>

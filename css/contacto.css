@@ -1,234 +1,185 @@
-.nav {
-    --padding-container: 0px;
-    height: 142%;
-    display: flex;
-    align-items: center;
-}
+/* estilos  */
 
-.nav__title {
-    font-weight: 300;
-}
 
-.nav__link {
-    margin-left: auto;
+/* estilos generales */
+
+* {
     padding: 0;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    gap: 2em;
-}
-
-.nav__items {
-    list-style: none;
-}
-
-.nav__links {
-    color: #fff;
-    text-decoration: none;
-    list-style: none;
-    margin: 5px;
-    font-weight: bold;
-    transition: all 0.5s ease;
-}
-
-.nav__links.active {
-    background: #fff;
-}
-
-.nav__title {
-    font-size: 25px;
-    color: #fff;
-    font-weight: 300;
-}
-
-.nav__menu {
-    margin-left: auto;
-    cursor: pointer;
-    display: none;
-}
-
-.nav__img {
-    display: block;
-    width: 30px;
-}
-
-.nav__close {
-    display: var(--show, none);
-}
-
-.nav__links:hover {
-    padding: 5px 10px;
-    background: #fff;
-    color: #000;
-    border-radius: 15px;
-}
-
-:root {
-    --padding-container: 100px 0;
-    --color-title: #001A49;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: var(--padding-container);
-}
-
-.hero {
-    width: 100%;
-    height: 80vh;
-    min-height: 600px;
-    max-height: 800px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 68px 1fr;
-    color: #fff
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 101%;
-    height: 19%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../imagenes/electrico7.jpg');
-    background-size: cover;
-    z-index: -1;
-}
-
-:root {
-    --colorTextos: #49454567;
-}
-
-*,
-::before,
-::after {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert {
+    display: block;
+    padding: 12px 20px;
+    background: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
 }
 
 body {
     background: url('../imagenes/electrico7.jpg');
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 700;
-}
-
-form {
+.contenedor {
     background: rgba(0, 0, 0, .6);
-    padding: 26px 0;
+    padding: 40px;
     box-shadow: 0 0 6px 0 rgba(27, 19, 19, 0.945);
     border-radius: 12px;
-    margin-top: 121px;
-    margin-left: 452px;
+    margin: 20px auto;
     height: 79%;
-    width: 41%;
-}
-
-.form {
     width: 90%;
-    margin: auto;
+    max-width: 1000px;
 }
 
-form .grupo {
-    position: relative;
-    margin: 38px;
-}
-
-input {
-    background: none;
-    color: #e8dada;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid var(--colorTextos);
-}
-
-input:focus {
-    outline: none;
-    color: #eee3e3;
-}
-
-label {
-    color: var(--colorTextos);
-    font-size: 16px;
-    position: absolute;
-    left: 5px;
-    top: 10px;
-    transition: 0.5s ease all;
-    pointer-events: none;
-}
-
-input:focus~label,
-input:valid~label {
-    top: -14px;
-    font-size: 12px;
+.contenedor h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
     color: #fb8500;
 }
 
-.barra {
-    position: relative;
-    display: block;
+.contenido {
+    display: flex;
     width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
-.barra::before {
-    content: "";
-    height: 2px;
-    width: 0%;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(to right, #fb8500, #175676);
-    transition: 0.3s ease width;
-    left: 0;
+.contenido .info,
+.contenido .formulario {
+    width: 50%;
 }
 
-input:focus~.barra::before {
+
+/* ===========================================
+Estilos info
+============================================== */
+
+.info {
+    padding-left: 26px;
+}
+
+.info .col {
     width: 100%;
-}
-
-.warnings {
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: #d00000;
-    padding-top: 20px;
-}
-
-button {
-    font-family: 'roboto';
-    background: #4568DC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #e85d04, #e85d04);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fb8500, #ffb703);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: none;
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-    color: #f8f9fa;
-    height: 40px;
+    display: flex;
+    margin-bottom: 15px;
     font-size: 16px;
-    cursor: pointer;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
-@media screen and (max-width:500px) {
-    form {
-        width: 80%;
+.info .col .icono {
+    color: #fb8500;
+    margin-right: 10px;
+}
+
+.info .col p {
+    color: #999;
+}
+
+.info .redes-s {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info .redes-s a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #e85d04;
+    color: #fff;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+}
+
+.info .redes-s a:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+    /* background: #000; */
+}
+
+
+/* ===========================================
+Estilos formulario
+============================================== */
+
+.formulario {
+    padding-left: 10px;
+}
+
+.formulario input[type='text'],
+.formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    outline: 0;
+}
+
+.formulario textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.formulario input[type='text']:focus,
+.formulario textarea:focus {
+    border: 1px solid #fb8500;
+}
+
+.formulario button {
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 30px;
+    border: transparent;
+    background: -webkit-linear-gradient(to right, #e85d04, #e85d04);
+    background: linear-gradient(to right, #fb8500, #ffb703);
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+
+@media (max-width: 520px) {
+    .contenedor {
+        padding: 40px 20px;
+    }
+    .contenido .info,
+    .contenido .formulario {
+        width: 100%;
+        padding: 0px;
+    }
+    .contenido .info {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contenido .info,
+    .contenido .formulario {
+        width: 100%;
+        padding: 0px;
+    }
+    .contenido .info {
+        margin-bottom: 30px;
     }
 }
