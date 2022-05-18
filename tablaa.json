@@ -1,0 +1,32 @@
+[{
+        "id": 1,
+        "nombre": "Instalaciones eléctricas.",
+        "descripcion": "Toda empresa o conjunto de casas que requiera de una acometida de una potencia eléctrica superior a 100 Kw precisa de un proyecto eléctrico de ingeniería según el nuevo Reglamento Electrotécnico de baja Tensión.Electro Speed cuenta con una gama de profesionales altamente cualificados para tramitar esta documentación ante los organismos oficiales correspondientes, además de asesorar, gestionar y ejecutar el proyecto con garantías.",
+        "imagen": "https://images.unsplash.com/photo-1602606289321-b5897bce2afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=500"
+    },
+    {
+        "id": 2,
+        "nombre": "Proyectos eléctricos.",
+        "descripcion": "En Electro Speed contamos con una amplia gama de ingenieros encargados de asesorar y gestionar los tramites cara a industria para asegurar así que nuestros proyectos e instalaciones cumplen la normativa vigente. No obstante, nuestro objetivo no es simplemente tramitar, ya que la evolución del mercado nos ha obligado a abrir las puertas de las nuevas tecnologías a nuestros clientes para conseguir obtener la mayor eficiencia energética posible para el servicio solicitado.",
+        "imagen": "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=500&w=500"
+    },
+    {
+        "id": 3,
+        "nombre": "Iluminación interior y exterior.",
+        "descripcion": "Para poder conseguir dar una buena impresión ante nuestros clientes, hemos seleccionado proveedores de gran reputación en el mercado ofreciendo garantías de hasta 4 años en nuestros productos. La iluminación interior es la principal base de una buena decoración, por ello, hacemos un especial hincapié en contar con los mejores decoradores de interiores cuya principal función es asesorar al cliente, teniendo en cuenta las tendencias del mercado y los requerimientos de la reforma/obra nueva, para lograr así un entorno agradable y cómodo.",
+        "imagen": "https://images.pexels.com/photos/1668860/pexels-photo-1668860.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=500&w=500"
+
+    },
+    {
+        "id": 4,
+        "nombre": "Instalaciones de paneles solares.",
+        "descripcion": "Gracias a nuestros ingenieros eléctricos, civiles y electrónicos con gran experiencia en energía solar, logramos diseños simples y acordes a las necesidades. Además, contamos con diversos softwares que nos permiten desarrollar simulaciones energéticas confiables y que se cumplen en terreno.",
+        "imagen": "https://images.pexels.com/photos/4254161/pexels-photo-4254161.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=500&w=500"
+    },
+    {
+        "id": 5,
+        "nombre": "Instalación de Sistemas de Alimentación Ininterrumpidas, Baterías.",
+        "descripcion": "A día de hoy cualquier instalación de mediana envergadura se encuentra protegida mediante, al menos, un Sistema de Alimentación Ininterrumpida (SAI). Los cortes o fallos en el suministro eléctrico pueden afectar negativamente al equipamiento de nuestra instalación de tal manera que pueden llegar a: Dañar las infraestructuras, las variaciones de voltaje disminuyen la vida útil de servidores, routers y equipamiento informático. Destruir la información, un corte o micro corte de suministro eléctrico repentino en muchas ocasiones provoca perdida de datos, trabajo realizado, etc. Afectar a la productividad, estos “parones de corriente” generan desmotivación y está demostrado científicamente que disminuye la productividad de los trabajadores. Generar pérdidas, ya que irrumpen la continuidad de operación, causando importantes pérdidas económicas. Por todo ello, Electro Speed ha apostado por ser suministrador e instalador de los principales fabricantes y distribuidores del mercado de Sistemas de Alimentación Ininterrumpida, así pudiendo ofrecer a cada cliente el equipamiento y complementos para la gestión de los mismos más acorde a sus necesidades, sin olvidar el mantenimiento correctivo y/o preventivo de los mismos.",
+        "imagen": "https://images.pexels.com/photos/7359566/pexels-photo-7359566.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=500&w=500"
+    }
+]

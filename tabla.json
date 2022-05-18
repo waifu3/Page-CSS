@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "nombre": "Javiera Cortes",
+        "email": "J.cortes@ElectroSpeed.cl",
+        "cargo": "Gerente de Administaración y Finanzas",
+        "imagen": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
+    },
+    {
+        "id": 2,
+        "nombre": "Alejandro Perez",
+        "email": "a.Perez@ElectroSpeed.cl",
+        "cargo": "Gerente de Operaciones",
+        "imagen": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "id": 3,
+        "nombre": "Jose Arteaga",
+        "email": "j.Arteaga@ElectroSpeed.cl",
+        "cargo": "Gerente de Calidad",
+        "imagen": "https://images.unsplash.com/photo-1543132220-3ec99c6094dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+
+    },
+    {
+        "id": 4,
+        "nombre": "Alícia Rios",
+        "email": "a.Rios@ElectroSpeed.cl",
+        "cargo": "Gerente de ventas/comercial",
+        "imagen": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+    },
+    {
+        "id": 5,
+        "nombre": "Alex Villalon",
+        "email": "a.Villalon@ElectroSpeed.cl",
+        "cargo": "Dueño/Director/Gerente General",
+        "imagen": "https://images.unsplash.com/photo-1582015752624-e8b1c75e3711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+    }
+]
