@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <!--========================================
+        Fuentes - Tipo de letra - Iconografia 
+    ==========================================-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+
+    <!--========================================
+       Mis estilos
+    ==========================================-->
+    <link rel="stylesheet" href="css/login.css">
+
+
+</head>
+
+<body>
+    <section id="Inicio">
+        <header class="hero">
+            <nav class="nav container">
+
+                <h2 class="nav__title">Electro Speed.</h2>
+
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+
+                    <img src="./imagenes/close.svg" class="nav__close" alt="">
+                </ul>
+
+                <div class="nav__menu">
+                    <img src="./imagenes/menu.svg" class="nav__img">
+                </div>
+            </nav>
+        </header>
+
+    </section>
+    <!--========================================
+       contenido
+    ==========================================-->
+
+    <div class="contenedor-login">
+
+        <!--========================================
+            Slider
+        ==========================================-->
+        <div class="contenedor-slider">
+
+            <div class="slider">
+
+                <!-- Slide 1 -->
+                <div class="slide fade ">
+                    <video muted autoplay loop>
+                        <source src="videos/mantencion.mp4" type="video/mp4">
+                        </video>
+
+                    <div class="contenido-slider">
+
+                        <div class="logo">
+
+                        </div>
+
+                        <p class="slider-texto">
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide fade">
+                    <video muted autoplay loop>
+                    <source src="videos/mantencion2.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="contenido-slider">
+
+                        <div class="logo">
+
+                        </div>
+
+                        <p class="slider-texto">
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Botones next y prev -->
+            <a href="#" class="prev"><i class="fas fa-chevron-left"></i></a>
+            <a href="#" class="next"><i class="fas fa-chevron-right"></i></a>
+
+            <!-- dots -->
+            <div class="dots">
+
+                <!-- <span class="dot active"></span> -->
+
+            </div>
+
+        </div>
+
+        <!--========================================
+            Formularios
+        ==========================================-->
+        <div class="contenedor-texto">
+
+            <div class="contenedor-form">
+
+                <h1 class="titulo">¡Bienvenido a Electro Speed!</h1>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque corrupti impedit earum ratione. Atque dolorum illo aliquid facilis est! Ad quas sit nostrum temporibus culpa expedita odit nihil est.</p>
+
+                <!-- Tabs -->
+                <ul class="tabs-links">
+                    <li class="tab-link active">Iniciar Sesión</li>
+                    <li class="tab-link ">Registrate</li>
+                </ul>
+
+                <!--========================================
+                    Formulario logue
+                ==========================================-->
+                <form action="index.html" method="GET" id="formLogin" class="formulario active">
+
+                    <div class="error-text">
+                        <p>aqui los errores del formualrio</p>
+                    </div>
+
+                    <input type="text" placeholder="Correo electrónico" class="input-text" name="correo" autocomplete="off">
+                    <div class="grupo-input">
+
+                        <input type="password" placeholder="********" name="password" class="input-text clave">
+                        <button type="button" class="icono fas fa-eye mostrarClave"></button>
+
+                    </div>
+
+                    <a href="#" class="link">¿Ovidaste tu contraseña?</a>
+                    <button class="btn" id="btnLogin" type="button">Iniciar Sesión</button>
+
+                </form>
+
+                <!--========================================
+                    Formulario de Registro
+                ==========================================-->
+                <form action="index.html" method="GET" id="formRegistro" class="formulario">
+
+                    <div class="error-text ">
+
+                    </div>
+
+                    <input type="text" placeholder="Nombre y Apellidos" class="input-text" name="nombre" autocomplete="off">
+                    <input type="text" placeholder="Correo electrónico" class="input-text" name="correo" autocomplete="off">
+
+                    <div class="grupo-input">
+
+                        <input type="password" placeholder="********" name="password" class="input-text clave">
+                        <button type="button" class="icono fas fa-eye mostrarClave"></button>
+
+                    </div>
+
+                    <!-- Checkbox Personalizados -->
+                    <label class="contenedor-cbx animate">
+                        Me gustaría recibir notificaciones sobre productos
+                        <input type="checkbox" name="cbx_notificaciones" checked>
+                        <span class="cbx-marca"></span>
+                    </label>
+
+                    <label class="contenedor-cbx animate">
+                        He leído y acepto los
+                        <a href="#" class="link">Términos y Condiciones</a>
+                        <a href="#" class="link">y Política de privacidad de mi Tienda</a>
+
+                        <input type="checkbox" name="cbx_terminos" >
+                        <span class="cbx-marca"></span>
+
+                    </label>
+
+                    <button class="btn" id="btnRegistro" type="button">Crear Cuenta</button>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--========================================
+       Mis Scripts
+    ==========================================-->
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
